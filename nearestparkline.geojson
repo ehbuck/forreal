@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "nearestparkline",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": 1, "Path": null }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -79.063469414531468, 35.908324770317506 ], [ -79.064201182108206, 35.912761111251484 ] ] ] } },
+{ "type": "Feature", "properties": { "id": 2, "Path": "second closest" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -79.063515150005003, 35.908370505791055 ], [ -79.057523802970465, 35.912532433883754 ] ] ] } },
+{ "type": "Feature", "properties": { "id": 3, "Path": "third closest" }, "geometry": { "type": "MultiLineString", "coordinates": [ [ [ -79.063515150005003, 35.908187563896874 ], [ -79.060953963486426, 35.900046649605656 ] ] ] } }
+]
+}
